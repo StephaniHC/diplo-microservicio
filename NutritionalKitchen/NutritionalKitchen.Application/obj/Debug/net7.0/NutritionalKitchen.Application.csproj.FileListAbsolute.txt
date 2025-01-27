@@ -1,0 +1,15 @@
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\bin\Debug\net7.0\NutritionalKitchen.Application.deps.json
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\bin\Debug\net7.0\NutritionalKitchen.Application.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\bin\Debug\net7.0\NutritionalKitchen.Application.pdb
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\bin\Debug\net7.0\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\bin\Debug\net7.0\NutritionalKitchen.Domain.pdb
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.csproj.AssemblyReference.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.AssemblyInfoInputs.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.AssemblyInfo.cs
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.csproj.CoreCompileInputs.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.csproj.CopyComplete
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\refint\NutritionalKitchen.Application.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\NutritionalKitchen.Application.pdb
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Application\obj\Debug\net7.0\ref\NutritionalKitchen.Application.dll

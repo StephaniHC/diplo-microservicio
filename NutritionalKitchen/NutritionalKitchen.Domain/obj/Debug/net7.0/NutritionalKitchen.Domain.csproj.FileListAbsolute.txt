@@ -1,0 +1,12 @@
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.deps.json
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.pdb
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.csproj.AssemblyReference.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.AssemblyInfoInputs.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.AssemblyInfo.cs
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.csproj.CoreCompileInputs.cache
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\refint\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.pdb
+C:\Users\steph\Documents\DiploNur\2do Modulo\ms2024-tf-StephaniHC\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\ref\NutritionalKitchen.Domain.dll
