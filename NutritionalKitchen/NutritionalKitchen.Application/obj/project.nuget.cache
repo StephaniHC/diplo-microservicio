@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TJFGU3SmVPVhpesnzhEd0g2DQ2dGEwEm3e4gRsuSpP4OPa5PH7HclEaq7VhmNGtfFO+1kz5R0szKxItPGn0XAQ==",
+  "dgSpecHash": "cXjSuiAnrbQMVcGlR5PAc5IUaryw1ZEDCCZBVecVhi/hbO1lfwY9cQQzhnOMr5efTaVRTDJjMN9yVFShuR+qSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Application\\NutritionalKitchen.Application.csproj",
+  "projectFilePath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Application\\NutritionalKitchen.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steph\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

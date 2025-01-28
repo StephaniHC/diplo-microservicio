@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Application.Label.CreateLabel
 {
-    internal class CreateCommandHandler : IRequestHandler<CreateLabelCommand, Guid>
+    public class CreateCommandHandler : IRequestHandler<CreateLabelCommand, Guid>
     {
         private readonly ILabelFactory _labelFactory;
         private readonly ILabelRepository _labelRepository;

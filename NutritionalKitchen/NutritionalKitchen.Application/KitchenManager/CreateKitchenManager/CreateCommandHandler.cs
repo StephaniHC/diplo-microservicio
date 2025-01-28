@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Application.KitchenManager.CreateKitchenManager
 { 
-    internal class CreateCommandHandler : IRequestHandler<CreateKitchenManagerCommand, Guid>
+    public class CreateCommandHandler : IRequestHandler<CreateKitchenManagerCommand, Guid>
     {
         private readonly IKitchenManagerFactory _kitcheManagerFactory;
         private readonly IKitchenManagerRepository _kitcheManagerRepository;

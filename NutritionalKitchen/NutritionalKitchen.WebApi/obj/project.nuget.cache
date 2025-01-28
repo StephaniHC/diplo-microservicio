@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tNNGPidd/dOv3hnvEznCLlFE31k6YkEJw0Zz8tDF0NEqDVDWI9WLVXFQ6x4E1z7i0mYdYt+pzbRelFA2wGwXxQ==",
+  "dgSpecHash": "VX+XfKtJZIY1LySm3kGmZloUvnUJFCIPpsS9KaTw73dXx2o3ZIZftC7wpwJXPGefShHQmnV7wnrVffys9df+Bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steph\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

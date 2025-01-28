@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Application.Ingredients.CreateIngredient
 {
-    internal class CreateCommandHandler : IRequestHandler<CreateIngredientCommand, Guid>
+    public class CreateCommandHandler : IRequestHandler<CreateIngredientCommand, Guid>
     {
         private readonly IIngredientFactory _ingredientFactory;
         private readonly IIngredientsRepository _ingredientRepository;

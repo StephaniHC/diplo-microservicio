@@ -1,0 +1,55 @@
+# Archivos y carpetas de compilación
+bin/
+obj/
+out/
+
+# Configuración de usuario y entornos
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de lock y temporales
+project.lock.json
+project.fragment.lock.json
+*.log
+
+# Configuración de Rider, VS Code y Visual Studio
+.idea/
+.vscode/
+.vscode/*
+*.vs/
+.vs/
+
+# Paquetes y dependencias
+*.nuget/
+*.nupkg
+packages/
+
+# Archivos temporales del sistema
+*.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# Configuración de publicación
+.publish/
+app.publish/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# Respaldo de archivos
+*.bak
+*.old
+*.orig
+
+# Otros archivos que no deberían estar en control de versiones
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.cache
+*.log

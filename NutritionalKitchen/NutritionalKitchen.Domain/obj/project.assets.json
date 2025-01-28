@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Domain\\NutritionalKitchen.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Domain\\NutritionalKitchen.Domain.csproj",
       "projectName": "NutritionalKitchen.Domain",
-      "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Domain\\NutritionalKitchen.Domain.csproj",
+      "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Domain\\NutritionalKitchen.Domain.csproj",
       "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Domain\\obj\\",
+      "outputPath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1789,11 +1789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
       "projectName": "NutritionalKitchen.WebApi",
-      "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
+      "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.WebApi\\NutritionalKitchen.WebApi.csproj",
       "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1815,8 +1815,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Infraestructura\\NutritionalKitchen.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\2do Modulo\\ms2024-tf-StephaniHC\\NutritionalKitchen\\NutritionalKitchen.Infraestructura\\NutritionalKitchen.Infraestructura.csproj"
+            "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Infraestructura\\NutritionalKitchen.Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\steph\\Documents\\DiploNur\\3er Modulo\\diplo-microservicio\\NutritionalKitchen\\NutritionalKitchen.Infraestructura\\NutritionalKitchen.Infraestructura.csproj"
             }
           }
         }

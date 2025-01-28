@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 namespace NutritionalKitchen.Domain.Ingredients
 {
     public class Ingredients : AggregateRoot
-    {
-        public Guid Id { get; private set; }
+    { 
         public string Name { get; private set; }
-        public Ingredients(Guid id, string name ) : base(Guid.NewGuid())
+        public Ingredients(Guid id, string name ) : base(id)
         {
             Id = Id;
             Name = name; 
