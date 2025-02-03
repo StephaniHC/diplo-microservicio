@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "565da3ee-f550-475d-8c6a-f1015543f192",
+		"name": "Nutritional Kitchen (microservicio)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21026437"
+	},
+	"item": [
+		{
+			"name": "Agregar ingredients",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const es_error = pm.collectionVariables.get(\"es_error\");",
+							"",
+							"if (es_error == 0) {",
+							"    pm.test(\"Status code is 400\", function () {",
+							"        pm.response.to.have.status(400);",
+							"    });",
+							"    return;",
+							"}",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Body is correct\", function () {",
+							"    const responseBody = pm.response.text().replace(/\"/g, \"\");  ",
+							"    const guidRegex = /^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$/;",
+							"    pm.expect(responseBody).to.match(guidRegex);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let uuid = require('uuid');",
+							"let lodash = require('lodash');",
+							"const randomNo = lodash.random(0, 5);",
+							"pm.collectionVariables.set(\"es_error\", randomNo);",
+							"if (randomNo == 0) {",
+							"    pm.collectionVariables.set(\"guid_prueba\", '');",
+							"} else {",
+							"    let guid = uuid.v4();",
+							"    pm.collectionVariables.set(\"guid_prueba\", guid);",
+							"}"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"{{guid_prueba}}\",\n  \"name\": \"{{$randomWord}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7203/api/Ingredients",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7203",
+					"path": [
+						"api",
+						"Ingredients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener ingredients",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7203/api/Ingredients",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7203",
+					"path": [
+						"api",
+						"Ingredients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar cocina",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"662edee3-f681-4ac8-85b2-99f596cacdb9\",\r\n  \"name\": \"override\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7203/api/Ingredients",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7203",
+					"path": [
+						"api",
+						"Ingredients"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://localhost:7203/api/Ingredients' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n  \"id\": \"662edee3-f681-4ac8-85b2-99f596cacdb9\",\r\n  \"name\": \"override\"\r\n}'"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "es_error",
+			"value": ""
+		},
+		{
+			"key": "guid_prueba",
+			"value": ""
+		}
+	]
+}
