@@ -22,3 +22,15 @@ C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitc
 C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\refint\NutritionalKitchen.Domain.dll
 C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.pdb
 C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen\NutritionalKitchen.Domain\obj\Debug\net7.0\ref\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.deps.json
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\bin\Debug\net7.0\NutritionalKitchen.Domain.pdb
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.csproj.AssemblyReference.cache
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.AssemblyInfoInputs.cache
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.AssemblyInfo.cs
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.csproj.CoreCompileInputs.cache
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\refint\NutritionalKitchen.Domain.dll
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\NutritionalKitchen.Domain.pdb
+C:\Users\steph\Documents\DiploNur\3er Modulo\diplo-microservicio\NutritionalKitchen-Backend\NutritionalKitchen.Domain\obj\Debug\net7.0\ref\NutritionalKitchen.Domain.dll

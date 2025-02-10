@@ -3,7 +3,7 @@ export class IngredientService {
     constructor(baseUrl) {
         this.endpoint = baseUrl;
         if (!this.endpoint) {
-            this.endpoint = 'https://localhost:7203';
+            this.endpoint = 'http://localhost:5075';
         }
     }
     getIngredients = () => {
