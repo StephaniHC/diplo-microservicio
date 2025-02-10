@@ -6,7 +6,7 @@ const fs = require('fs');
 const generateAndReplacePactGuid = () => {
     const pactUrl = path.resolve(`./pacts/react-client-ingredients-service.json`);
     let pactFile = fs.readFileSync(pactUrl, 'utf8');
-    pactFile = pactFile.replace(/9227d6ea-c391-46b9-8f1b-d180ee111bbe/g, uuidv4());
+    pactFile = pactFile.replace(/"08dd1c46-7e37-40a0-8493-f11bce9fee7f/g, uuidv4());
     const newPactUrl = path.resolve(`./pacts/react-client-ingredients-service-replaced.json`);
     fs.writeFileSync(newPactUrl, pactFile);
     return newPactUrl;

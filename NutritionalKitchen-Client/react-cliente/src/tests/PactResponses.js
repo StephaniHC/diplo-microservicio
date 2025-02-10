@@ -12,4 +12,4 @@ export const crearIngredientRequestBody = {
     "id": "08dd1fdd-3371-4f83-8d88-7249b3df9b83",
     "name": "test ingredient"
 };
-export const crearIngredientResponse = '"3fa85f64-5717-4562-b3fc-2c963a66afa6"';
+export const crearIngredientResponse = '"08dd1fdd-3371-4f83-8d88-7249b3df9b83"';

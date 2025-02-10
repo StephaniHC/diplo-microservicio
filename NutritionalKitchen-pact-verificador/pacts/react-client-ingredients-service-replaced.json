@@ -21,7 +21,7 @@
             "name": "ingredient1"
           },
           {
-            "id": "08dd1c46-7e37-40a0-8493-f11bce9fee7f",
+            "id": afad7bd6-29ca-47d9-b216-2728715880f6",
             "name": "ingredient2"
           }
         ],
@@ -65,7 +65,7 @@
         "path": "/api/Ingredients"
       },
       "response": {
-        "body": "\"3fa85f64-5717-4562-b3fc-2c963a66afa6\"",
+        "body": "\"08dd1fdd-3371-4f83-8d88-7249b3df9b83\"",
         "headers": {
           "Content-Type": "application/json"
         },
