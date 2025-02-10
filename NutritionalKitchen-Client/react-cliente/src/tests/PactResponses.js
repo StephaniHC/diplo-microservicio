@@ -9,7 +9,7 @@ export const responseIngredientList = [
     }
 ];
 export const crearIngredientRequestBody = {
-    "id": "08dd1fdd-3371-4f83-8d88-7249b3df9b83",
+    "id": "08dd1fdd-3171-4f75-8d88-7249b3df9b83",
     "name": "test ingredient"
 };
-export const crearIngredientResponse = '"08dd1fdd-3371-4f83-8d88-7249b3df9b83"';
+export const crearIngredientResponse = '"08dd1fdd-3171-4f75-8d88-7249b3df9b83"';

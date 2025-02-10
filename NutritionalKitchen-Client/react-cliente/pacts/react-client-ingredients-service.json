@@ -54,7 +54,7 @@
       ],
       "request": {
         "body": {
-          "id": "08dd1fdd-3371-4f83-8d88-7249b3df9b83",
+          "id": "08dd1fdd-3171-4f75-8d88-7249b3df9b83",
           "name": "test ingredient"
         },
         "headers": {
@@ -65,7 +65,7 @@
         "path": "/api/Ingredients"
       },
       "response": {
-        "body": "\"08dd1fdd-3371-4f83-8d88-7249b3df9b83\"",
+        "body": "\"08dd1fdd-3171-4f75-8d88-7249b3df9b83\"",
         "headers": {
           "Content-Type": "application/json"
         },
