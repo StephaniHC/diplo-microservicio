@@ -1,0 +1,105 @@
+{
+  "consumer": {
+    "name": "react-client"
+  },
+  "interactions": [
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de ingredients"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/Ingredients"
+      },
+      "response": {
+        "body": [
+          {
+            "id": "0c7a4eee-ab9c-4431-8de7-beb6559e5c4e",
+            "name": "ingredient1"
+          },
+          {
+            "id": "0c7a4eee-ab9c-4431-8de7-beb6559e5c4f",
+            "name": "ingredient2"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "datos para crear un ingredients",
+      "providerStates": [
+        {
+          "name": "crear ingredients"
+        }
+      ],
+      "request": {
+        "body": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963a66afa6",
+          "name": "test ingredient"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/api/Ingredients"
+      },
+      "response": {
+        "body": "\"3fa85f64-5717-4562-b3fc-2c963a66afa6\"",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "13.2.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.22",
+      "models": "1.2.3"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "ingredients-service"
+  }
+}
