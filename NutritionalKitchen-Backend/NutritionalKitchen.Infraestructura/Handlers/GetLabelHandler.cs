@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Handlers
 {
-    internal class GetLabelHandler : IRequestHandler<GetLabelQuery, IEnumerable<LabelDto>>
+    public class GetLabelHandler : IRequestHandler<GetLabelQuery, IEnumerable<LabelDto>>
     {
         private readonly StoredDbContext _dbContext;
 

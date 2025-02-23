@@ -1,0 +1,416 @@
+{
+  "consumer": {
+    "name": "react-client"
+  },
+  "interactions": [
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de Label"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/Label"
+      },
+      "response": {
+        "body": [
+          {
+            "address": "test1",
+            "batchCode": "08aa1c47-65bb-45e2-8fde-9i4815933ff8",
+            "detail": "test1",
+            "expirationDate": "2025-04-23T15:07:44",
+            "patientId": "08aa1117-65bb-45e2-8fde-9i4815933ff8",
+            "productionDate": "2025-02-23T15:07:44"
+          },
+          {
+            "address": "test2",
+            "batchCode": "08qd1c46-7eq7-40a0-8493-f21bce9fee7f",
+            "detail": "test2",
+            "expirationDate": "2025-04-23T15:07:44",
+            "patientId": "08aa1x27-65bb-45e2-8fde-9i4815933ff8",
+            "productionDate": "2025-02-23T15:07:44"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de Package"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/Package"
+      },
+      "response": {
+        "body": [
+          {
+            "batchCode": "0014",
+            "id": "08dd1c47-65bb-45e2-8fde-9i4815933ff8",
+            "preparedRecipeId": "25",
+            "status": "ok"
+          },
+          {
+            "batchCode": "0012",
+            "id": "08dd1c46-7eq7-40a0-8493-f21bce9fee7f",
+            "preparedRecipeId": "30",
+            "status": "ok"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de ingredients"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/Ingredients"
+      },
+      "response": {
+        "body": [
+          {
+            "id": "08dd1c47-05bb-45e2-8fde-8e4815933ff8",
+            "name": "ingredient1"
+          },
+          {
+            "id": "08dd1c46-7e37-40a0-8493-f11bce9fee7f",
+            "name": "ingredient2"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de kitchen manager"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/KitchenManager"
+      },
+      "response": {
+        "body": [
+          {
+            "id": "08dd1c47-05bb-45e2-8fde-9i4815933ff8",
+            "name": "test1",
+            "shift": "test1"
+          },
+          {
+            "id": "08dd1c46-7e37-40a0-8493-f21bce9fee7f",
+            "name": "test2",
+            "shift": "test2"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "Un body vacío",
+      "providerStates": [
+        {
+          "name": "realizar una consulta de recipe"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/Recipe"
+      },
+      "response": {
+        "body": [
+          {
+            "id": "08dd1c47-05bb-45e2-83de-9i4815933ff8",
+            "name": "test1",
+            "preparationTime": "25"
+          },
+          {
+            "id": "08dd1c46-7e37-40a0-7193-f21bce9fee7f",
+            "name": "test2",
+            "preparationTime": "30"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "datos para crear un Package",
+      "providerStates": [
+        {
+          "name": "crear Package"
+        }
+      ],
+      "request": {
+        "body": {
+          "batchCode": "3fa85f64-5717-4562-b3fc-2c233f66af75",
+          "id": "3fa84a58-5728-4552-b3ee-2c963f66afd6",
+          "preparedRecipeId": "3fa85f64-5717-4562-b3fc-2c233f66af75",
+          "status": "pending f"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/api/Package"
+      },
+      "response": {
+        "body": "\"3fa84a58-5728-4552-b3ee-2c963f66afd6\"",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "datos para crear un Recipe",
+      "providerStates": [
+        {
+          "name": "crear Recipe"
+        }
+      ],
+      "request": {
+        "body": {
+          "id": "3fa85f74-5285-4562-b3cd-2c963f33afa6",
+          "name": "test integracion data",
+          "preparationTime": "30"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/api/Recipe"
+      },
+      "response": {
+        "body": "3fa85f74-5285-4562-b3cd-2c963f33afa6",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "datos para crear un ingredients",
+      "providerStates": [
+        {
+          "name": "crear ingredients"
+        }
+      ],
+      "request": {
+        "body": {
+          "id": "3fa85f14-5717-4562-b3fc-2c963f66afb5",
+          "name": "test ingredient"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/api/Ingredients"
+      },
+      "response": {
+        "body": "3fa85f14-5717-4562-b3fc-2c963f66afb5",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "datos para crear un kitchen manager",
+      "providerStates": [
+        {
+          "name": "crear kitchen manager"
+        }
+      ],
+      "request": {
+        "body": {
+          "id": "2ua85f64-5128-4561-b3fc-2c963f66afa6",
+          "name": "test integracion",
+          "shift": "morning"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/api/KitchenManager"
+      },
+      "response": {
+        "body": "2ua85f64-5128-4561-b3fc-2c963f66afa6",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "13.2.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.22",
+      "models": "1.2.3"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "nutritional-kitchen-service"
+  }
+}

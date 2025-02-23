@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Repositories
 {
-    internal class PackageRepository : IPackageRepository
+    public class PackageRepository : IPackageRepository
     {
         private readonly DomainDbContext _dbContext;
 
@@ -21,10 +21,11 @@ namespace NutritionalKitchen.Infraestructura.Repositories
          
         public async Task AddAsync(Package entity)
         {
-            await _dbContext.Package.AddAsync(entity);
+            await _dbContext.Set<Package>().AddAsync(entity);
+            await _dbContext.SaveChangesAsync(); 
         }
 
-        Task IPackageRepository.DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
             throw new NotImplementedException();
         }

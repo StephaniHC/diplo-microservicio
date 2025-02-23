@@ -2,13 +2,14 @@
 using NutritionalKitchen.Domain.Ingredients;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.DomainModel.config
-{
-    internal class IngredientsConfig : IEntityTypeConfiguration<Ingredients>
+{ 
+    public class IngredientsConfig : IEntityTypeConfiguration<Ingredients>
     {
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Ingredients> builder)
         {

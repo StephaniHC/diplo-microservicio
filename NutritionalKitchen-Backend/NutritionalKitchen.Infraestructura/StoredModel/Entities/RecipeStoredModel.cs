@@ -14,16 +14,16 @@ namespace NutritionalKitchen.Infraestructura.StoredModel.Entities
         [Key]
         [Column("id")]
         [Required]
-        public Guid Id { get; private set; } 
+        public Guid Id { get; set; } 
 
         [Column("name")]
         [StringLength(250)]
         [Required]
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
         [Column("preparationTime")]
         [StringLength(50)] 
         [Required]
-        public string PreparationTime { get; private set; }
+        public string PreparationTime { get; set; }
     }
 }

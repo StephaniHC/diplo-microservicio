@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Repositories
 {
-    internal class KitchenManagerRepository : IKitchenManagerRepository
+    public class KitchenManagerRepository : IKitchenManagerRepository
     {
         private readonly DomainDbContext _dbContext;
 
@@ -25,7 +25,7 @@ namespace NutritionalKitchen.Infraestructura.Repositories
             await _dbContext.KitchenManager.AddAsync(entity);
         }
 
-        Task IKitchenManagerRepository.DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
             throw new NotImplementedException();
         }

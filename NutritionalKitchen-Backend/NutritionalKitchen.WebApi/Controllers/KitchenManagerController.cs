@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NutritionalKitchen.Application.Ingredients.CreateItem;
+using NutritionalKitchen.Application.Ingredients.CreateIngredient;
 using NutritionalKitchen.Application.Ingredients.GetIngredients;
 using NutritionalKitchen.Application.KitchenManager.CreateKitchenManager;
 using NutritionalKitchen.Application.KitchenManager.GetKitchenManager;

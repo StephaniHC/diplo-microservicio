@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Repositories
 {
-    internal class IngredientsRepository : IIngredientsRepository
+    public class IngredientsRepository : IIngredientsRepository
     {
         private readonly DomainDbContext _dbContext;
 

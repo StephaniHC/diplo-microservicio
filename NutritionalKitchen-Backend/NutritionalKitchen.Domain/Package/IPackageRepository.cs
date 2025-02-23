@@ -9,6 +9,7 @@ namespace NutritionalKitchen.Domain.Package
 {
     public interface IPackageRepository : IRepository<Package>
     {
+        Task AddAsync(Package entity);
         Task UpdateAsync(Package package);
         Task DeleteAsync(Guid id);
     }

@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using NutritionalKitchen.Application.Ingredients.CreateItem;
+using NutritionalKitchen.Application.Ingredients.CreateIngredient;
 using NutritionalKitchen.Domain.Abstractions;
 using NutritionalKitchen.Domain.Ingredients;
 using System;

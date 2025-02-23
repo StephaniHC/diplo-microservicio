@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Repositories
 {
-    internal class LabelRepository : ILabelRepository
+    public class LabelRepository : ILabelRepository
     {
         private readonly DomainDbContext _dbContext;
 
@@ -19,12 +19,12 @@ namespace NutritionalKitchen.Infraestructura.Repositories
             _dbContext = dbContext;
         }
 
-        Task IRepository<Label>.AddAsync(Label entity)
+        public async Task AddAsync(Label entity)
         {
-            throw new NotImplementedException();
+            await _dbContext.Label.AddAsync(entity);
         }
 
-        Task ILabelRepository.DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
             throw new NotImplementedException();
         }

@@ -14,7 +14,7 @@ namespace NutritionalKitchen.Domain.Shared
         {
             if (value < 0)
             {
-                throw new ArgumentException("Quantity value cannot be negative", nameof(value));
+                throw new ArgumentException("La cantidad debe ser mayor a cero.");
             }
 
             Value = value;

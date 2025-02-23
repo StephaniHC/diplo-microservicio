@@ -11,13 +11,13 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.DomainModel
 {
-    internal class DomainDbContext : DbContext
+    public class DomainDbContext : DbContext
     {
-        public DbSet<Ingredients> Ingredients { get; set; }
-        public DbSet<Package> Package { get; set; }
-        public DbSet<KitchenManager> KitchenManager { get; set; }
-        public DbSet<Label> Label { get; set; }
-        public DbSet<Recipe> Recipe { get; set; }
+        public virtual DbSet<Ingredients> Ingredients { get; set; }
+        public virtual DbSet<Package> Package { get; set; }
+        public virtual DbSet<KitchenManager> KitchenManager { get; set; }
+        public virtual DbSet<Label> Label { get; set; }
+        public virtual DbSet<Recipe> Recipe { get; set; }
 
         public DomainDbContext(DbContextOptions<DomainDbContext> options) : base(options)
         {

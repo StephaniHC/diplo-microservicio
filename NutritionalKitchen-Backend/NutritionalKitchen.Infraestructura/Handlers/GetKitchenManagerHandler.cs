@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Handlers
 {
-    internal class GetKitchenManagerHandler : IRequestHandler<GetKitchenManagerQuery, IEnumerable<KitchenManagerDto>>
+    public class GetKitchenManagerHandler : IRequestHandler<GetKitchenManagerQuery, IEnumerable<KitchenManagerDto>>
     {
         private readonly StoredDbContext _dbContext;
 

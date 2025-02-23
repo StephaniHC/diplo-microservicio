@@ -10,6 +10,7 @@ namespace NutritionalKitchen.Domain.KitchenManager
 {
     public interface IKitchenManagerRepository : IRepository<KitchenManager>
     {
+        Task AddAsync(KitchenManager entity);
         Task UpdateAsync(KitchenManager kitchenManager);
         Task DeleteAsync(Guid id);
     }

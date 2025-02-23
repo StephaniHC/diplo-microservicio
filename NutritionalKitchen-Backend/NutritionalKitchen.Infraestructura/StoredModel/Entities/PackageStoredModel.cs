@@ -19,17 +19,17 @@ namespace NutritionalKitchen.Infraestructura.StoredModel.Entities
         [Column("status")]
         [StringLength(100)]  
         [Required]
-        public string Status { get; private set; }
+        public string Status { get; set; }
 
         [ForeignKey("label")]
         [Column("batchCode")]
         [Required]
-        public string BatchCode { get; private set; }
+        public string BatchCode { get; set; }
 
         [ForeignKey("preparedRecipe")]
         [Column("preparedRecipeId")]
         [Required]
-        public Guid PreparedRecipeId { get; internal set; }
+        public Guid PreparedRecipeId { get; set; }
     }
 
 }

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Handlers
 {
-    internal class GetIngredientsHandler : IRequestHandler<GetIngredientsQuery, IEnumerable<IngredientDto>>
+    public class GetIngredientsHandler : IRequestHandler<GetIngredientsQuery, IEnumerable<IngredientDto>>
     {
         private readonly StoredDbContext _dbContext;
 

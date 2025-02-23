@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.Repositories
 {
-    internal class RecipeRepository : IRecipeRepository
+    public class RecipeRepository : IRecipeRepository
     {
         private readonly DomainDbContext _dbContext;
 
@@ -19,12 +19,13 @@ namespace NutritionalKitchen.Infraestructura.Repositories
             _dbContext = dbContext;
         }
 
-        Task IRepository<Recipe>.AddAsync(Recipe entity)
+        public async Task AddAsync(Recipe entity)
         {
-            throw new NotImplementedException();
+            await _dbContext.Set<Recipe>().AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
-        Task IRecipeRepository.DeleteAsync(Guid id)
+        public async Task DeleteAsync(Guid id)
         {
             throw new NotImplementedException();
         }

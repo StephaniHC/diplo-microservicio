@@ -13,28 +13,27 @@ namespace NutritionalKitchen.Infraestructura.StoredModel.Entities
     {
         [Key]
         [Column("batchCode")]
-        [StringLength(50)]
         [Required]
-        public Guid BatchCode { get; private set; } 
+        public Guid BatchCode { get; set; } 
 
         [Column("productionDate")]
         [Required]
-        public DateTime ProductionDate { get; private set; }
+        public DateTime ProductionDate { get; set; }
 
         [Column("expirationDate")]
         [Required]
-        public DateTime ExpirationDate { get; private set; }
+        public DateTime ExpirationDate { get; set; }
 
         [Column("detail")]
         [StringLength(500)]
-        public string Detail { get; private set; }
+        public string Detail { get; set; }
 
         [Column("patientId")]
         [Required]
-        public Guid PatientId { get; private set; }
+        public Guid PatientId { get; set; }
 
         [Column("address")]
         [StringLength(250)]
-        public string Address { get; private set; }
+        public string Address { get;  set; }
     }
 }

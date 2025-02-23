@@ -9,6 +9,7 @@ namespace NutritionalKitchen.Domain.Package
 { 
     public interface ILabelRepository : IRepository<Label>
     {
+        Task AddAsync(Label entity);
         Task UpdateAsync(Label label);
         Task DeleteAsync(Guid id);
     }

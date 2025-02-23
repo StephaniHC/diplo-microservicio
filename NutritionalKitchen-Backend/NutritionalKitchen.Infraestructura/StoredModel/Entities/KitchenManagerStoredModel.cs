@@ -19,12 +19,12 @@ namespace NutritionalKitchen.Infraestructura.StoredModel.Entities
         [Column("name")]
         [StringLength(250)]
         [Required]
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
         [Column("shift")]
         [StringLength(100)]
         [Required]
-        public string Shift { get; private set; }
+        public string Shift { get; set; }
     }
 
 }

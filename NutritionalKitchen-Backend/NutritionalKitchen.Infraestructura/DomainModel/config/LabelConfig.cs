@@ -4,13 +4,14 @@ using NutritionalKitchen.Domain.KitchenManager;
 using NutritionalKitchen.Domain.Package;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace NutritionalKitchen.Infraestructura.DomainModel.config
-{
-    internal class LabelConfig : IEntityTypeConfiguration<Label>
+{ 
+    public class LabelConfig : IEntityTypeConfiguration<Label>
     {
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Label> builder)
         {
