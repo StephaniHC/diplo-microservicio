@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { IngredientService } from "./services/IngredientService";
+import { NutritionalKitchenService } from "./services/NutritionalKitchenService.js";
 
 const IngredientPage = () => {
     const [ingredientList, setIngredientList] = useState([]);
     useEffect(() => {
-        new IngredientService().getIngredients().then((response) => {
+        new NutritionalKitchenService().getIngredients().then((response) => {
             setIngredientList(response);
         });
     }, [])
@@ -19,12 +19,12 @@ const IngredientPage = () => {
         });
     }
     return (<div>
-        <h1>Ingredients List Page</h1>
+        <h1>Ingredients List</h1>
         <table>
             <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Ingredient Name</th>
+                    <th>Name</th>
                 </tr>
             </thead>
             <tbody>

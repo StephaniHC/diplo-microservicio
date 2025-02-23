@@ -239,7 +239,7 @@
       "request": {
         "body": {
           "batchCode": "3fa85f64-5717-4562-b3fc-2c233f66af75",
-          "id": "2fa25f64-5717-4562-b3fc-2c233f66af75",
+          "id": "1fa15f64-5717-4562-b3fc-2c233f66af75",
           "preparedRecipeId": "3fa85f64-5717-4562-b3fc-2c233f66af75",
           "status": "pending f"
         },
@@ -251,7 +251,7 @@
         "path": "/api/Package"
       },
       "response": {
-        "body": "\"2fa25f64-5717-4562-b3fc-2c233f66af75\"",
+        "body": "\"1fa15f64-5717-4562-b3fc-2c233f66af75\"",
         "headers": {
           "Content-Type": "application/json"
         },
@@ -281,7 +281,7 @@
       ],
       "request": {
         "body": {
-          "id": "3fa85f22-5717-4562-b3fc-2c233f66af75",
+          "id": "3fa85f11-5717-4562-b3fc-2c233f66af75",
           "name": "test integracion data",
           "preparationTime": "30"
         },
@@ -293,7 +293,7 @@
         "path": "/api/Recipe"
       },
       "response": {
-        "body": "3fa85f22-5717-4562-b3fc-2c233f66af75",
+        "body": "3fa85f11-5717-4562-b3fc-2c233f66af75",
         "headers": {
           "Content-Type": "application/json"
         },
@@ -323,7 +323,7 @@
       ],
       "request": {
         "body": {
-          "id": "3fa85f00-5717-4522-b3fc-2c233f66af00",
+          "id": "3fa85f00-5717-4511-b3fc-2c233f66af00",
           "name": "test ingredient"
         },
         "headers": {
@@ -334,7 +334,7 @@
         "path": "/api/Ingredients"
       },
       "response": {
-        "body": "3fa85f00-5717-4522-b3fc-2c233f66af00",
+        "body": "3fa85f00-5717-4511-b3fc-2c233f66af00",
         "headers": {
           "Content-Type": "application/json"
         },
@@ -364,7 +364,7 @@
       ],
       "request": {
         "body": {
-          "id": "3fa85f00-5717-4562-b3fc-2c233f66af22",
+          "id": "3fa85f00-5717-4562-b3fc-2c233f66af11",
           "name": "test integracion",
           "shift": "morning"
         },
@@ -376,7 +376,7 @@
         "path": "/api/KitchenManager"
       },
       "response": {
-        "body": "3fa85f00-5717-4562-b3fc-2c233f66af22",
+        "body": "3fa85f00-5717-4562-b3fc-2c233f66af11",
         "headers": {
           "Content-Type": "application/json"
         },

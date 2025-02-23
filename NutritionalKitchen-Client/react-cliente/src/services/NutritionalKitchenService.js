@@ -65,4 +65,79 @@ export class NutritionalKitchenService {
             });
         });
     }
+
+    getRecipes = () => {
+        return new Promise((resolve, reject) => {
+            axios.get(this.endpoint + "/api/Recipe")
+                .then((response) => {
+                    resolve(response.data);
+                }).catch((error) => {
+                reject(error);
+            });
+        });
+    }
+    addRecipe(id, name, preparationTime) {
+        console.log('recipe params', {
+            id, name, preparationTime
+        });
+        return new Promise((resolve, reject) => {
+            axios.post(this.endpoint + "/api/Recipe", {
+                id: id,
+                name: name,
+                preparationTime: preparationTime
+            }, {
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then((response) => {
+                resolve(response.data);
+            }).catch((error) => {
+                reject(error);
+            });
+        });
+    }
+
+    getPackages = () => {
+        return new Promise((resolve, reject) => {
+            axios.get(this.endpoint + "/api/Package")
+                .then((response) => {
+                    resolve(response.data);
+                }).catch((error) => {
+                reject(error);
+            });
+        });
+    }
+    addPackage(id, status, preparedRecipeId, batchCode) {
+        console.log('package params', {
+            id, status, preparedRecipeId, batchCode
+        });
+        return new Promise((resolve, reject) => {
+            axios.post(this.endpoint + "/api/Package", {
+                id: id,
+                status: status,
+                preparedRecipeId: preparedRecipeId,
+                batchCode: batchCode
+            }, {
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then((response) => {
+                resolve(response.data);
+            }).catch((error) => {
+                reject(error);
+            });
+        });
+    }
+
+    getLabels = () => {
+        return new Promise((resolve, reject) => {
+            axios.get(this.endpoint + "/api/Label")
+                .then((response) => {
+                    resolve(response.data);
+                }).catch((error) => {
+                reject(error);
+            });
+        });
+    }
+
 }
