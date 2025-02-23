@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/provider/IngredientProviderService.spec.js"
+    "test": "mocha tests/provider/NutritionalKitchenProviderService.spec.js"
   },
   "author": "",
   "license": "ISC",
