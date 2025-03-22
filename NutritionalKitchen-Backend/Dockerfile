@@ -4,8 +4,7 @@ WORKDIR /app
 ENV ASPNETCORE_URLS=http://+:5075
 ENV ASPNETCORE_ENVIRONMENT=Development
 EXPOSE 5075
-
-# Usa la imagen de SDK para compilar la aplicación
+ 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 
@@ -22,16 +21,13 @@ RUN dotnet restore "./NutritionalKitchen.WebApi/NutritionalKitchen.WebApi.csproj
 
 # Copia todo el código fuente
 COPY . .
-
-# Compila la solución
+  
 WORKDIR "/src/NutritionalKitchen.WebApi"
 RUN dotnet build "NutritionalKitchen.WebApi.csproj" -c Release -o /app/build
-
-# Publica la aplicación
+ 
 FROM build AS publish
 RUN dotnet publish "./NutritionalKitchen.WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-# Crea la imagen final
+ 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
