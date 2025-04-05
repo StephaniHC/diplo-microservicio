@@ -16,15 +16,12 @@ namespace NutritionalKitchen.Test.Application.Package
 {
     public class CreateCommandHandlerTest
     {
-        private IPackageFactory object1;
-        private IPackageRepository object2;
-        private IUnitOfWork object3;
-
         [Fact]
         public async Task Handle_ShouldCreatePackage_AndReturnPackageId_WhenValidRequest()
         {
             // Arrange
-            var packageId = Guid.NewGuid();
+            var packageId = Guid.NewGuid(); 
+
             var batchCode = "746332";
             var status = "Active";
             var preparedRecipeId = Guid.NewGuid();
@@ -67,7 +64,7 @@ namespace NutritionalKitchen.Test.Application.Package
             mockPackageRepository.Verify(repo => repo.AddAsync(It.IsAny<NutritionalKitchen.Domain.Package.Package>()), Times.Once);
             mockUnitOfWork.Verify(uow => uow.CommitAsync(CancellationToken.None), Times.Once);
         }
-  
+
 
         [Fact]
         public async Task Handle_ShouldThrowException_WhenFactoryThrowsException()
@@ -139,4 +136,4 @@ namespace NutritionalKitchen.Test.Application.Package
             mockUnitOfWork.Verify(uow => uow.CommitAsync(It.IsAny<CancellationToken>()), Times.Never);
         }
     }
-} 
+}
